@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <style>
+        #curve {
+            border-radius: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+            <img src="logo.avif" alt="..." class="rounded-0 mr-3" height="100" width="100">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <a class="navbar-brand" href="about.html">About us</a>
+            <a class="navbar-brand" href="event.html">Event</a>
+            <a class="navbar-brand" href="service.html">Service</a>
+            <a class="navbar-brand" href="goal.html">Goal</a>
+            <a class="navbar-brand" href="program.html">Program</a>
+            <a class="navbar-brand" href="donation.html">Donation</a>
+            <a class="navbar-brand" href="contact.html">Contact Us</a>
+        </nav>
+    </main>
+    <div class="container-fluid">
+        <div class="row mt-5 justify-content-md-center">
+            <div class="col-sm-5 text-center">
+                <img src="girl.jpg" height="700" width="100%">
+            </div>
+            <div class="col-sm-5 bg-warning my-auto">
+                <div class="p-4">
+                    <h1>MAKE A DONATION</h1>
+                    <h6>Every donation,no matter how big or small makes a significant diiference
+                        to our cause.Thank you for doing your part to help.</h4>
+
+                        <form action="" method="post">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Full Name</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Enter full name" required>
+                            </div>
+                            <!-- <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Enter email" required>
+                            </div> -->
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Phone</label>
+                                <input type="number" class="form-control" id="exampleInputPhone1"
+                                    placeholder="Enter Phone No" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Donation Amount:</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="donate" id="exampleRadios1"
+                                        value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        ₹ 100
+                                    </label>
+                                    <input class="form-check-input ml-2" type="radio" name="donate" id="exampleRadios2"
+                                        value="option2">
+                                    <label class="form-check-label ml-4" for="exampleRadios2">
+                                        ₹ 120
+                                    </label>
+                                    <input class="form-check-input ml-2" type="radio" name="donate" id="exampleRadios2"
+                                        value="option2">
+                                    <label class="form-check-label ml-4" for="exampleRadios2">
+                                        ₹ 140
+                                    </label>
+                                    <input class="form-check-input ml-2" type="radio" name="donate" id="exampleRadios2"
+                                        value="option2">
+                                    <label class="form-check-label ml-4" for="exampleRadios2">
+                                        ₹ 160
+                                    </label>
+                                    <input class="form-check-input ml-2" type="radio" name="donate" id="exampleRadios2"
+                                        value="option2">
+                                    <label class="form-check-label ml-4" for="exampleRadios2">
+                                        ₹ 200
+                                    </label>
+                                    <input class="form-check-input ml-2" type="radio" name="donate" id="exampleRadios2"
+                                        value="option2">
+                                    <label class="form-check-label ml-4" for="exampleRadios2">
+                                        Others
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Amount</label>
+                                <input type="text" class="form-control" id="exampleInputPhone1"
+                                    placeholder="Amount in words" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="msg">Write a message here</label>
+                                <textarea name="" cols="30" rows="5" placeholder="type your message" required class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit Donation</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-3 text-light mt-5" style="background-color: black;">
+            <div class="col-sm-4 text-center">
+                <img src="logo.avif" alt="logo" class="img-fluid w-25">
+                <h4>We all have the same Smile.</h4>
+            </div>
+            <div class="col-sm-4">
+                <h4><b style="color:white" class="text-left">INFORMATION</b></h4>
+                <ul type="none" class="text-left">
+                    <li><a href="about.html" class="text-light font-weight-bold">About us</a></li>
+                    <li><a href="service.html" class="text-light font-weight-bold">Service</a></li>
+                    <li><a href="program.html" class="text-light font-weight-bold">Program</a></li>
+                    <li><a href="donation.html" class="text-light font-weight-bold">Donation</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <h4 class="text-left"><b style="color:white">&ensp;&ensp; &ensp;SUPPORT</b></h4>
+                <ul type="none" class="text-left">
+                    <li><a href="contact.html" class="text-light font-weight-bold">Contact Us</a></li>
+                    <li><span class="material-symbols-outlined">
+                            call
+                        </span> <a href="tel:7521878485" class="text-light font-weight-bold">7521878485</a></li>
+                    <li><span class="material-symbols-outlined">
+                            mail
+                        </span> <a href="mailto:abc@gmail.com" class="text-light font-weight-bold">abc@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-12">
+                <p class="text-center text-light">Made By @Chestha</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
